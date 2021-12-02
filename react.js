@@ -8,6 +8,11 @@ module.exports = {
     },
   },
   plugins: ["react", "react-hooks"],
+  // settings: {
+  //   react: {
+  //     version: oldestSupportedReactVersion,
+  //   },
+  // },
   rules: {
     "react/boolean-prop-naming": "off",
     "react/button-has-type": "off",
@@ -92,4 +97,16 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
     "react-hooks/rules-of-hooks": "error",
   },
+  overrides: [
+    {
+      files: ["**/*.ts?(x)"],
+      rules: {
+        "react/jsx-filename-extension": [
+          "error",
+          { extensions: [".ts", ".tsx"] },
+        ],
+        "react/prop-types": "off",
+      },
+    },
+  ],
 };
