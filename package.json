@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-rakeshshrestha",
   "version": "1.0.0",
-  "description": "ESlint rules according to personal preferences of Rakesh Shrestha",
+  "description": "Personal ESlint preference for better tooling",
   "main": "index.js",
   "author": "Rakesh Shrestha <rak3sh.shrestha@gmail.com> (https://rakeshshretha.com)",
   "license": "MIT",
@@ -9,9 +9,9 @@
     "eslint",
     "eslintconfig",
     "config",
-    "rakeshshrestha",
     "javascript",
-    "styleguide"
+    "styleguide",
+    "rakeshshrestha"
   ],
   "peerDependencies": {
     "eslint": "^7.5.0"
