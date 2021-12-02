@@ -1,0 +1,35 @@
+module.exports = {
+  extends: ["./non-rules-config.js", "prettier"],
+  rules: {
+    camelcase: "off",
+    "capitalized-comments": "off",
+    "consistent-this": "off",
+    curly: ["error", "multi-line"],
+    "func-name-matching": "error",
+    "func-names": "error",
+    "func-style": "off",
+    "id-denylist": "error",
+    "id-length": "off",
+    "id-match": [
+      "error",
+      // camelCase, PascalCase, __filename, CONST_VALUE, stream$, $el
+      "^\\$?(__)?(([A-Z]|[a-z]|[0-9]+)|([A-Z_]))*\\$?$",
+    ],
+    "lines-between-class-members": "off",
+    "max-depth": ["error", 4],
+    "max-nested-callbacks": ["error", 7],
+    "max-statements-per-line": ["error", { max: 1 }],
+    "no-array-constructor": "error",
+    "no-bitwise": "error",
+    "no-continue": "off",
+    "no-inline-comments": "off",
+    "no-lonely-if": "error",
+    "no-multi-assign": "error", // it's handy, but harder to read
+    "no-negated-condition": "error",
+    "no-nested-ternary": "off",
+    "no-ternary": "off",
+    "no-underscore-dangle": "off",
+    "no-unneeded-ternary": "error",
+    "init-declarations": "off",
+  },
+};
