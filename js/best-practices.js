@@ -16,6 +16,8 @@ module.exports = {
     "prefer-template": "error",
     "require-yield": "error",
     "symbol-description": "error",
+    "no-unused-vars": "error",
+    "no-debugger": "warn",
     /** conflicting rule */
     // quotes: ["error", "double"],
   },

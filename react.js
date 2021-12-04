@@ -30,7 +30,7 @@ module.exports = {
       "warn",
       { props: "never", children: "ignore" },
     ],
-    "react/jsx-filename-extension": ["error", { extensions: [".js"] }],
+    "react/jsx-filename-extension": ["error", { extensions: [".jsx"] }],
     "react/jsx-fragments": "off",
     "react/jsx-handler-names": "off",
     "react/jsx-key": "error",
@@ -101,10 +101,7 @@ module.exports = {
     {
       files: ["**/*.ts?(x)"],
       rules: {
-        "react/jsx-filename-extension": [
-          "error",
-          { extensions: [".ts", ".tsx"] },
-        ],
+        "react/jsx-filename-extension": ["error", { extensions: [".tsx"] }],
         "react/prop-types": "off",
       },
     },
