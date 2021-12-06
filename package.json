@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rakeshshrestha",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Personal ESlint preference for better tooling",
   "main": "index.js",
   "author": "Rakesh Shrestha <rak3sh.shrestha@gmail.com> (https://rakeshshretha.com)",
