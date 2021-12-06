@@ -82,7 +82,7 @@ module.exports = {
     "react/prefer-read-only-props": "off",
     "react/prefer-stateless-function": "off",
     // "react/prop-types": hasPropTypes ? "error" : "off",
-    "react/react-in-jsx-scope": "error",
+    "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off", // sometimes the default value is undefined so that's fine...
     "react/require-optimization": "off",
     "react/require-render-return": "error",
