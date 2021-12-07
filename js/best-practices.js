@@ -26,6 +26,7 @@ module.exports = {
       files: ["**/*.ts?(x)"],
       rules: {
         "no-var": "error", // ts transpiles let/const to var, so no need for vars any more
+        "no-undef": "off", // ts has its own checks
         "no-unused-vars": "off",
         "@typescript-eslint/no-unused-vars": "error",
         "prefer-const": "error", // ts provides better types with const
