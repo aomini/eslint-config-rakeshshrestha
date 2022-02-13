@@ -60,3 +60,11 @@ Eslint preference rules
   "extends": ["rakeshshrestha", "rakeshshrestha/react"]
 }
 ```
+
+### For Nextjs
+- Please use this for optimum eslint errors and warnings.
+```json
+{
+  "extends": ["rakeshshrestha", "rakeshshrestha/react", "next/core-web-vitals"]
+}
+```
