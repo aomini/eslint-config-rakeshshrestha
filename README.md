@@ -70,27 +70,3 @@ Eslint preference rules
   "extends": ["rakeshshrestha", "rakeshshrestha/react", "next/core-web-vitals"]
 }
 ```
-
-### Customization
-
-#### import order resolver
-
-Here are the list of mappings for module resolution. If you want a new module resolution create an issue. But you can also use the global module resolution in the mean time.
-
-```json
-// Use it as @/components/Button
-["@/components", "./src/components"],
-["@/assets", "./src/assets"],
-["@/providers", "./src/providers"],
-["@/lib", "./src/lib"],
-["@/Builder", "./src/Builder"],
-["@/pages", "./src/pages"],
-["@/config", "./src/config"],
-["@/utils", "./src/utils"],
-["@/hooks", "./src/hooks"],
-["@/http", "./src/http"],
-["@/constants", "./src/constants"],
-
-// global module resolution
-["~", "./src"],
-```
