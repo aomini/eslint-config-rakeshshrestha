@@ -14,11 +14,22 @@ module.exports = {
         extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
       /** Resolve path alias for js used with jsconfig */
-      "import/resolver": {
-        alias: {
-          map: [["@/components", "./src/components"]],
-          extensions: [".jsx"],
-        },
+      alias: {
+        map: [
+          ["@/components", "./src/components"],
+          ["@/assets", "./src/assets"],
+          ["@/providers", "./src/providers"],
+          ["@/lib", "./src/lib"],
+          ["@/Builder", "./src/Builder"],
+          ["@/pages", "./src/pages"],
+          ["@/config", "./src/config"],
+          ["@/utils", "./src/utils"],
+          ["@/hooks", "./src/hooks"],
+          ["@/http", "./src/http"],
+          ["@/constants", "./src/constants"],
+          ["~", "./src"],
+        ],
+        extensions: [".jsx", ".js"],
       },
     },
   },
