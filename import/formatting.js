@@ -17,11 +17,6 @@ module.exports = {
             group: "external",
             position: "after",
           },
-          {
-            pattern: "~**",
-            group: "external",
-            position: "after",
-          },
         ],
         groups: [
           "builtin",
@@ -33,6 +28,7 @@ module.exports = {
           "object",
           "type",
         ],
+        "newlines-between": "always",
       },
     ],
   },
