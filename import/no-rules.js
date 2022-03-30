@@ -13,6 +13,13 @@ module.exports = {
       node: {
         extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
+      /** Resolve path alias for js used with jsconfig */
+      "import/resolver": {
+        alias: {
+          map: [["@/components", "./src/components"]],
+          extensions: [".jsx"],
+        },
+      },
     },
   },
   overrides: [
